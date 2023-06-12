@@ -21,3 +21,5 @@
 go.work
 /#weatherjson.go#
 /weatherjson.go~
+/client.go~
+/client_test.go~
