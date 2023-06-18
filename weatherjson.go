@@ -67,6 +67,7 @@ type PeriodJson struct {
 	DewPoint                   UnitValueJson[float64] `json:"dewpoint"`
 	RelativeHumidity           UnitValueJson[int]     `json:"relativeHumidity"`
 	WindSpeed                  string                 `json:"windSpeed"`
+	WindDirection              string                 `json:"windDirection"`
 	Icon                       string                 `json:"icon"`
 	ShortForecast              string                 `json:"shortForecast"`
 	DetailedForcast            string                 `json:"detailedForecast"`
